@@ -23,7 +23,7 @@ Tutorial API to provide testers a platform to work with (repo can be updated wit
         > git clone git@github.com:chrismodus/carrental.git && cd carrental
     1. create a virtual environemnt for the repository
 
-    1. install requirments
+    1. install requirements
         > pip install -r requirements.txt
 
 3. Write behave-django tests 
