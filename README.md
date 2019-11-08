@@ -7,7 +7,7 @@ Tutorial API to provide testers a platform to work with (repo can be updated wit
 - Run server:
     > python manage.py runserver
 
-    Access the server through in your browser:
+    Access the server in your browser:
     > http://localhost:8000/
     
 ## TASK
