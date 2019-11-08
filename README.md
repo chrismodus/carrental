@@ -28,7 +28,7 @@ Tutorial API to provide testers a platform to work with (repo can be updated wit
     ### Automated Testing
     No automated tests have been implemented.
 
-    To setup behave-django follow this guide: https://behave-django.readthedocs.io/en/latest/installation.html
+    1.To setup behave-django in a django project follow this guide: https://behave-django.readthedocs.io/en/latest/installation.html
 
     The features to test against are found in ./BDD/features/ 
 
