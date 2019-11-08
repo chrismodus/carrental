@@ -12,9 +12,9 @@ Tutorial API to provide testers a platform to work with (repo can be updated wit
     
 ## TASK
 
-1. Fork the repository
+1. Fork the repository to your github account so you can make changes against your forked repository. Alternatively you can work together (peer programming is a viable programmming technique that helps lots of developers)
 
-2. Setup repository:
+2. Setup the repository:
     ## Setup
 
     1. clone repository: 
