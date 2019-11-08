@@ -12,7 +12,9 @@ Tutorial API to provide testers a platform to work with (repo can be updated wit
     
 ## TASK
 
-1. Depending on whether you're working with your colleagues for this task, you can either: 1. fork the repository to your github account so you can make changes against your forked repository and it won't affect your colleagues. 2. Alternatively you can work together (peer programming is a viable programmming technique that helps lots of developers) and encourages learning workflow amongst your colleagues (great reality simulation.)
+1. Depending on whether you're working with your colleagues for this task, you can either: 
+    1. fork the repository to your github account so you can make changes against your forked repository and it won't affect your colleagues. 
+    2. Alternatively you can work together (peer programming is a viable programmming technique that helps lots of developers) and encourages learning workflow amongst your colleagues (great reality simulation.)
 
 2. Setup the repository:
     ## Setup
