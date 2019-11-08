@@ -2,7 +2,15 @@
 
 Tutorial API to provide testers a platform to work with (repo can be updated with more example tasks)
 
-# TASK
+## Usage
+
+- Run server:
+    > python manage.py runserver
+
+    Access the server through in your browser:
+    > http://localhost:8000/
+    
+## TASK
 
 1. Fork the repository
 
@@ -16,17 +24,8 @@ Tutorial API to provide testers a platform to work with (repo can be updated wit
     1. install requirments
         > pip install -r requirements.txt
 
-
-    ## Usage
-
-    - Run server:
-        > python manage.py runserver
-
-        Access the server through in your browser:
-        > http://localhost:8000/
-
-
-    ## Automated Testing
+3. Write behave-django tests 
+    ### Automated Testing
     No automated tests have been implemented.
 
     To setup behave-django follow this guide: https://behave-django.readthedocs.io/en/latest/installation.html
