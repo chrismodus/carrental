@@ -4,8 +4,8 @@ from django.db import models
 class Car(models.Model):
     """Car model."""
     id = models.AutoField(primary_key=True)
-    name = models.CharField(max_length=20)
-    brand = models.CharField(max_length=20)
+    name = models.CharField(max_length=20, blank=False)
+    brand = models.CharField(max_length=20, blank=False)
     checked_out = models.BooleanField(default=False)
     rentee = models.CharField(max_length=30, blank=True)
     """
@@ -32,8 +32,8 @@ class Car(models.Model):
 class Rent(models.Model):
     """Rent a car model."""
     id = models.AutoField(primary_key=True)
-    name = models.CharField(max_length=20)
-    brand = models.CharField(max_length=20)
+    name = models.CharField(max_length=20, blank=False)
+    brand = models.CharField(max_length=20, blank=False)
     rentee = models.CharField(max_length=30, blank=True)
 
 

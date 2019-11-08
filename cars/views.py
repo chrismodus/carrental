@@ -42,11 +42,11 @@ class RentViewSet(viewsets.ModelViewSet):
                 if brand in available_brands:
                     available_brands.remove(brand)
                 
-                return JsonResponse({"message": f"Car is not available. No other cars for brand {brand} are available either. Please try another brand. [{', '.join(available_brands)}]"})
+                return JsonResponse({"message": f"Car is not available. No other cars for brand {brand} are available either. Please try another brand. [{', '.join(available_brands)}]"}, status=404)
 
             # Get avaiable car names for brand
             car_names_for_brand = available_brand_cars.values_list('name', flat=True)
-            return JsonResponse({"message": f"Car is not available; here are alternatives from the same brand: | {', '.join(car_names_for_brand)} |"})
+            return JsonResponse({"message": f"Car is not available; here are alternatives from the same brand: | {', '.join(car_names_for_brand)} |"}, status=404)
 
         selected = available_cars.first()
         selected.rentee = rentee
