@@ -17,7 +17,6 @@ Example API for practice in implementing automated tests (specifically BDD featu
     2. Alternatively you can work together (peer programming is a viable programmming technique that helps lots of developers) and encourages learning workflow amongst your colleagues (great reality simulation.)
 
 2. Setup the repository:
-    ## Setup
 
     1. clone repository: 
         > git clone git@github.com:chrismodus/carrental.git && cd carrental
