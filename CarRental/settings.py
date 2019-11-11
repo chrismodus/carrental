@@ -9,8 +9,11 @@ https://docs.djangoproject.com/en/2.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.1/ref/settings/
 """
-
 import os
+from environs import Env
+
+env = Env()
+env.read_env()
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -79,11 +82,11 @@ WSGI_APPLICATION = 'CarRental.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'carrental',
-        'USER': 'postgres',
-        'PASSWORD': 'postgres',
-        'HOST': 'localhost',
-        'PORT': '5432'                 # set to empty string for default
+        'NAME': env("PSQL_DATABASE"),
+        'USER': env("PSQL_USER"),
+        'PASSWORD': env("PSQL_PASSWORD"),
+        'HOST': env("PSQL_HOST"),
+        'PORT': env("PSQL_PORT")                 # set to empty string for default
     }
 }
 
