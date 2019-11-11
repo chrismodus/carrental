@@ -1,6 +1,6 @@
 # CarRental
 
-Tutorial API to provide testers a platform to work with (repo can be updated with more example tasks)
+Example API for practice in implementing automated tests (specifically BDD feature files)
 
 ## Usage
 
@@ -17,13 +17,12 @@ Tutorial API to provide testers a platform to work with (repo can be updated wit
     2. Alternatively you can work together (peer programming is a viable programmming technique that helps lots of developers) and encourages learning workflow amongst your colleagues (great reality simulation.)
 
 2. Setup the repository:
-    ## Setup
 
     1. clone repository: 
         > git clone git@github.com:chrismodus/carrental.git && cd carrental
-    1. create a virtual environemnt for the repository
+    1. create a virtual environment for the repository
 
-    1. install requirments
+    1. install requirements
         > pip install -r requirements.txt
 
 3. Write behave-django tests 
