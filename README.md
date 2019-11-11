@@ -1,6 +1,6 @@
 # CarRental
 
-Tutorial API to provide testers a platform to work with (repo can be updated with more example tasks)
+Example API for practice in implementing automated tests (specifically BDD feature files)
 
 ## Usage
 
